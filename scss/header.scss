@@ -1,0 +1,57 @@
+.header {
+  background-color: rgb(57, 57, 60);
+  color: white;
+  height: 60px;
+  padding: 0px 12px;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100%;
+  &__container {
+    height: 100%;
+    padding: 12px;
+  }
+}
+
+.menu__element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 8px;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    & > p {
+      font-size: 14px;
+    }
+  }
+  &__icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+    filter: invert(100%);
+  }
+}
+
+.burger__icon {
+  height: 60px;
+  width: 60px;
+}
+
+.hoverable {
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+  &:hover {
+    background-color: rgb(87, 87, 90);
+  }
+}

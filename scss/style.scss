@@ -1,0 +1,14 @@
+@import "normalize.scss";
+@import "header.scss";
+@import "alert.scss";
+
+* {
+  box-sizing: border-box;
+  //   border: 1px solid salmon;
+  font-family: "Arial";
+}
+
+body {
+  height: 200vh;
+  background-color: pink;
+}

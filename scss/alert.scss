@@ -1,0 +1,65 @@
+.alert {
+  background-color: rgb(241, 176, 57);
+  color: black;
+  padding: 0 16px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  
+  
+
+
+  &__container {
+    max-width: 800px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & p {
+    margin: 0px;
+  }
+
+  &__button {
+    background-color: rgb(100, 77, 182);
+    color: white;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    transition: transform 0.25s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  & &__link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 4px 16px;
+    border: 0;
+    outline: 0;
+  }
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.subtitle {
+  font-weight: 300;
+}
+
+mark {
+  background-color: transparent;
+  color: rgb(100, 77, 182);
+}
