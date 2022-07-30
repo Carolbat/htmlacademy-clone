@@ -1,11 +1,17 @@
 @import "normalize.scss";
 @import "header.scss";
 @import "alert.scss";
+@import "main.scss";
+
 
 * {
   box-sizing: border-box;
   //   border: 1px solid salmon;
   font-family: "Arial";
+}
+
+p {
+  margin: 0;
 }
 
 body {
