@@ -415,6 +415,43 @@ mark {
   top: 104px;
 }
 
+.container {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container > div {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.container_one .one {
+  border-style: solid;
+  border-color: red;
+}
+.container_two .two {
+  border-style: dotted;
+  border-color: green;
+  border-radius: 15%;
+}
+.container_three .three {
+  border-style: groove;
+  border-color: aqua;
+}
+.container_four .four {
+  border-style: outset;
+  border-color: brown;
+}
+.container_five .five {
+  border-style: inset;
+  border-color: yellow;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Arial";
