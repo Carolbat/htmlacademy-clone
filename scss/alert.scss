@@ -10,9 +10,6 @@
   top: 60px;
   width: 100%;
   z-index: 2;
-  
-  
-
 
   &__container {
     max-width: 800px;
@@ -40,13 +37,29 @@
     }
   }
 
-  & &__link {
+  &__link {
     color: white;
     text-decoration: none;
     display: block;
     padding: 4px 16px;
     border: 0;
     outline: 0;
+  }
+
+  &__close {
+    position: relative;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    & &__img {
+      position: absolute;
+      top: -28px;
+      right: -12px;
+      height: 12px;
+      width: 12px;
+    }
   }
 }
 
