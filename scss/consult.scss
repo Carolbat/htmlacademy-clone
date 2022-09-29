@@ -1,37 +1,40 @@
-.consult__container {
-  background-color: rgb(218, 214, 214);
+.consult {
+  background-color: #f8f8f8;
   height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  &__inner {
+  &__container {
     max-width: 560px;
   }
-}
 
-.consult__text {
-  line-height: 25px;
-
-  &__title {
-    font-size: 28px;
-    font-weight: 800;
-    padding-top: 32px;
-    line-height: 36px;
-  }
-  &__lable {
+  &__text {
     line-height: 24px;
+
+    &__title {
+      font-size: 28px;
+      font-weight: 800;
+      padding-top: 32px;
+      line-height: 36px;
+    }
+
+    &__lable {
+      line-height: 24px;
+    }
   }
-}
 
-.consult__form {
-  padding-top: 24px;
-  line-height: 36px;
-  font-weight: 600;
-}
+  &__form {
+    padding-top: 24px;
+    line-height: 36px;
+    font-weight: 600;
+  }
 
-input {
-  width: 100%;
-  padding: 8px;
-  border-color: rgb(230, 230, 230);
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d5d5d5;
+    outline: 0;
+    
+  }
 }
